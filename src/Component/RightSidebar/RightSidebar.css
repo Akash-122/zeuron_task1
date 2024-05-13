@@ -1,0 +1,22 @@
+.right-sidebar {
+  width: 241px;
+  display: flex;
+  color: #ffffff;
+  justify-content: space-between;
+  margin-top: 10px;
+  border-top: 1px solid #444444 ;
+}
+.main-nav1 {
+  /* margin-top: 0; */
+  height: 100%;
+  float: right;
+  background-color: rgb(44, 44, 44);
+  /* color: white; */
+  width: 300px;
+  font-size: 15px;
+  color: #ffffff;
+  /* border: 1px solid rgb(68, 68, 68); */
+}
+.search1 {
+  margin-bottom: 40px;
+}

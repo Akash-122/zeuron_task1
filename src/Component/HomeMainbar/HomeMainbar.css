@@ -1,0 +1,42 @@
+/* Style for the main container */
+.main-container {
+    background-color: black;
+    
+    width: calc(100% - 300px - 24px);
+    padding-top: 10px;
+    height: 100%;
+    overflow-y: auto;
+    height: 100%;
+  }
+  
+  
+  /* Style for the search results */
+  .search-results {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px; /* Add padding */
+  }
+
+  .img{
+    margin-left: 100px;
+    width: 50%;
+    height: 50%;
+    
+  }
+ 
+  
+
+  
+  .main-container {
+    height: 500px; /* Set a fixed height for the main bar */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+ 
+  
+ 
+  /* .scrolling {
+    // background-color: lightgray;
+    
+  } */
+  

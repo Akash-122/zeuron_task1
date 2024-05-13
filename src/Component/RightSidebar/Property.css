@@ -1,0 +1,59 @@
+
+
+.property-container {
+  gap: 20px;
+  max-height: 400px; 
+  overflow-y: auto; 
+  background-color: rgb(44, 44, 44);
+  border:  1px solid rgb(68, 68, 68);
+  font-size: 10px;
+}
+
+.property-section {
+  padding: 10px;
+  box-sizing: border-box; 
+}
+.div1{
+  height: 34px;
+  margin-top: -20px;
+  padding-bottom: 30px;
+}
+
+.div1,
+.div2,
+.div3,
+.div4 {
+ border:  1px solid rgb(68, 68, 68);
+}
+
+
+.property-section label {
+  margin-right: 60px; /* Add space between label and span */
+}
+.copy-color-btn {
+  display: none; /* Hide the button by default */
+}
+
+.div3:hover .copy-color-btn {
+  display: block; /* Show the button when the cursor hovers over div 3 */
+}
+.section3 {
+  display: flex;
+  justify-content: space-between;
+}
+.zeuron{
+  max-width: 160px;
+  z-index: 2;
+}
+
+.copy-color-btn{
+  background-color: rgba(49, 45, 45, 0.048);
+  height: 30px;
+  width: 82px;
+  color: white;
+  border: none;
+}
+.copy-color-btn:hover{
+  background-color: blue;
+  
+}
